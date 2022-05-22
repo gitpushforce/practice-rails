@@ -1,11 +1,11 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  title: MyString
-  description: MyText
-  price: 1
+ps4:
+  title: PS4 slim
+  description: PS4 second hand
+  price: 150
 
-two:
-  title: MyString
-  description: MyText
-  price: 1
+switch:
+  title: Nintento Switch
+  description: Switch new 
+  price: 350

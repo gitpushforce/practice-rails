@@ -3,7 +3,12 @@
 <%= 1 + 1 %> <br>
 <%= Date.today %> <br>
 <%= @products.count %> <br>
+
+
+
 <% @products.each do |product| %>
-    <h2><%= product.title %></h2>
-    <span><%= product.price %>$</span>
+    <%= link_to product_path(product.id), class: 'product' do %>
+        <h2><%= product.title %></h2>
+        <span><%= product.price %>$</span>
+    <% end %>
 <% end %>
